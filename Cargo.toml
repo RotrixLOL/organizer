@@ -5,6 +5,14 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "organizer_lib"
+path = "src/lib.rs"
+
+[bin]
+name = "organizer"
+path = "src/main.rs"
+
 [dependencies]
 directories = "5.0.0"
 toml = "0.7.3"
